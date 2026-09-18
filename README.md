@@ -7,12 +7,7 @@ Two approaches to locating defects on textile surfaces, both built on pretrained
 | `yolov8seg.ipynb` | YOLOv8n-seg instance segmentation | Transfer-learn Ultralytics YOLOv8 nano segmentation on a labelled textile dataset to get a box and a pixel mask per defect |
 | `TextileSam (7).ipynb` | Fine-tuned Segment Anything (SAM) | Freeze SAM's image and prompt encoders, train only the mask decoder, and generate box prompts automatically from ground-truth masks |
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Ultralytics](https://img.shields.io/badge/Ultralytics%20YOLOv8-111F68?style=flat-square)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![Ultralytics](https://img.shields.io/badge/Ultralytics%20YOLOv8-111F68?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
 ## 1. YOLOv8 instance segmentation
 
